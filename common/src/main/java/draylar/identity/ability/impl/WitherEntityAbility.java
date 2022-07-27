@@ -31,3 +31,8 @@ public class WitherEntityAbility extends IdentityAbility<WitherEntity> {
         return Items.WITHER_SKELETON_SKULL;
     }
 }
+@Override
+    public int getCooldown(WitherEntity entity) {
+        return 1 * 1;
+    }
+}
