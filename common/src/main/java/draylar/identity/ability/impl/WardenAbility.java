@@ -22,6 +22,6 @@ public class WardenAbility extends IdentityAbility<WardenEntity> {
 
     @Override
     public int getCooldown(WardenEntity entity) {
-        return 20 * 10;
+        return 10 * 10;
     }
 }
